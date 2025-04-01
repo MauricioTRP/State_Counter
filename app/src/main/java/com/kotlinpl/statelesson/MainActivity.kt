@@ -37,7 +37,9 @@ class MainActivity : ComponentActivity() {
             var count = rememberSaveable { mutableStateOf(0) }
             StateLessonTheme {
                 Scaffold { innerPadding ->
-                    Counter(modifier = Modifier.padding(innerPadding))
+                    TasksScreen(
+                        modifier = Modifier.padding(innerPadding)
+                    )
                 }
             }
         }

@@ -40,6 +40,8 @@ android {
 }
 
 dependencies {
+    // viewmodel compose library
+    implementation(libs.androidx.lifecycle.compose.viewmodel)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
